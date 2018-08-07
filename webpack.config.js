@@ -20,6 +20,6 @@ module.exports = {
         }]
     },
     optimization: {
-        concatenateModules: false
+        concatenateModules: true
     }
 };
