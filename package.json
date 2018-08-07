@@ -1,0 +1,25 @@
+{
+  "name": "cyclicreference",
+  "version": "1.0.0",
+  "description": "minimal repository to show failure of the option concatenateModule from optimization of webpack",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack-cli --config webpack.config.js",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [
+    "concatenateModule",
+    "optimization",
+    "webpack",
+    "cyclic",
+    "references"
+  ],
+  "author": "Pierre Macherel",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
