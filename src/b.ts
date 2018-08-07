@@ -4,6 +4,6 @@ import { log } from "./dec";
 console.log("B");
 
 export class B {
-    @log(() => A)
+    @log
     member: A;
 }
